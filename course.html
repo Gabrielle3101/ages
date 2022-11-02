@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGES Home School</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="sub-header">
+         <nav>
+             <a href="index.html"><img src="/Assets4new_project/images/logo.png" alt=""></a>
+             <div class="nav-links" id="navLinks">
+                <img class="fa" src="/Assets4new_project/images/close-btn.png" onclick="hideMenu()" alt="">
+                 <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="course.html">CLASSES</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+             </div>
+             <img class="fa" src="/Assets4new_project/images/menu-btn.png" alt="" onclick="showMenu()">
+         </nav>
+         <h1>Our Classes</h1>
+    </div>
+    <div class="course">
+        <h1>Classes We Take</h1>
+        <p>Have a look at the classes we take!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Pre-school</h3>
+                <p>Games, puzzles, and other fun activities to help kids practice letters, numbers, and more! Step-by-Step Learning Path designed to help kids learn math, reading, science, and more. Hands On and Creativity. </p>
+            </div>
+            <div class="course-col">
+                <h3>Nursery</h3>
+                <p>​Providing an excellent, supportive, and warm early childhood environment. The aim of the nursery is to provide a happy, safe and caring environment for all children to develop, through play and education. To encourage children to be confident learners; the basis of a stepping stone to progressing towards mainstream schooling.</p>
+            </div>
+            <div class="course-col">
+                <h3>Primary</h3>
+                <p>The primary schools are designed in a way that helps the child to face challenges and explore the wide spectrum of new opportunities. We follow a curriculum that helps a child to identify their passion and build a professional career that gives them a strong boost.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Facilities -->
+    <div class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Here are our world class facilities.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/Assets4new_project/images/1.jpg" alt="">
+                <h3>Ventilated Classrooms</h3>
+                <p>The spacious well-ventilated classrooms with natural light, provide a conducive environment for learning.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/Assets4new_project/images/8.jpg" alt="">
+                <h3>Beautiful Play Ground</h3>
+                <p>It is joy. It is fun. It is positive emotions. It releases anger and eases troubled minds. We always make time for a little play time!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/Assets4new_project/images/7.jpg" alt="">
+                <h3>Library</h3>
+                <p>As a gateway to knowledge and culture, libraries play a fundamental role in the society. The resources and services they offer create oppurtunities for learning, support literacy and education, and help shape the new ideas and perspectives that are central to a creative and innovative society.</p>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Education is our passport to the future, for tomorrow belongs to the people who prepare for it today. <br> Learning is a treasure that will follow its owner everywhere.</p>
+        <div class="icons">
+            <a href="https://www.instagram.com/ages.homeschool/"><img src="/Assets4new_project/images/instagram-brands.svg" alt=""></a>
+             <img src="/Assets4new_project/images/linkedin-brands.svg" alt="">
+        </div>
+        <p class="icons">Made with <img src="/Assets4new_project/images/heart-regular.svg" alt="" class="icons"> by &nbsp; <a href="https://github.com/Gabrielle3101">Gabrielle Duere</a></p>
+    </div>
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200"
+        }
+    </script>
+</body>
+</html>
