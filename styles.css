@@ -36,7 +36,7 @@ nav img {
 nav .fa {
     float: right;
     position: fixed;
-
+}
 
 .nav-links {
     flex: 1;
@@ -512,11 +512,16 @@ h3 {
     .nav-links:active {
         background-color: #fc695f;
     }
+    
+    nav .fa {
+        width: 25px;
+    }
+
 
     img.fa {
         display: block;
         margin: 10px;
-        width: 25px;
+        width: 15px;
         cursor: pointer;   
     }
     .nav-links ul {
