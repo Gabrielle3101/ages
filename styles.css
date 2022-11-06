@@ -34,7 +34,7 @@ nav img {
 }
 
 nav .fa {
-    float: right;
+    right: 5%;
     position: fixed;
     width: 25px;
 }
